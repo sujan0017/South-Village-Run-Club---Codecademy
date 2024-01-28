@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+.bg-primary {
+  background-color: #ffa07a;
+}
+.bg-secondary {
+  background-color: teal;
+}
+
+/* -common-style- */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-hori {
+  display: flex;
+  align-items: center;
+}
+
+/* header  */
+footer,
+header {
+  width: 100%;
+  height: auto;
+}
+ ul li a {
+  color: #ffa07a;
+  text-decoration: none;
+  font-size: 1.2rem;
+ }
+ ul li  {
+  display: inline-block;
+  padding-right:20px ;
+ }
+ footer ul,
+ header ul {
+  padding: 20px;
+ }
+
+ /* --Homepage__ */
+
+ .homepage {
+  width: 1536px;
+  height: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/25/05/44/basketball-2258650_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+ .homepage-content {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 40%;
+ }
+ .homepage-content h2  {
+  text-align: center;
+  color: white;
+ }
+
+ /* summary  */
+
+ .summary {
+  width: 100%;
+  height: auto;
+  /* height: 200px; */
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+
+ }
+ .summary-content{
+  margin-left: 20px;
+ }
+ .summary-content h1,
+ .summary-content h3,
+ .summary-content p {
+  padding: 7px;
+ }
+
+ /* image-container  */
+
+ .image-container {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+ }
+ .images {
+  width: 100%;
+  /* width: 456px; */
+  padding: 0 10px;
+ }
+ .images img {
+  width: 100%;
+  /* width: 436px; */
+  object-fit: cover;
+  object-position: center;
+  padding: 50px 0;
+ }
+
+ @media only screen and (max-width:1020px){
+
+  .image-container {
+    width: 100%;
+    flex-direction: column;
+  }
+ 
+ }
+
+  /* testimonial  */
+
+  .testimonial {
+    width: 100%;
+    height: auto;
+    /* height: 33px; */
+   }
+   .testimonial-content{
+    margin-left: 20px;
+    padding: 2.5rem 0;
+   }
+   .testimonial-content h1{
+    font-size: 2.5rem;
+    color: yellow;
+   }
+   .testimonial-content p{
+    font-size: 1.05rem;
+    color: yellow;
+    font-weight: 200;
+    padding:  10px 0;
+   }
+
+   /* meetup  */
+
+   .meetup {
+    width: 100%;
+    height: auto;
+   }
+   .meetup img {
+    width: 50%;
+    /* width: 759px ; */
+    display: block;
+    margin: 0 auto;
+   }
+   .meetup h1 {
+    text-align: center;
+    color: yellow;
+    padding: 20px;
+   }
+
+   @media only screen and (max-width:1020px) {
+    .meetup img {
+      width: 70%;
+    }
+   }
+
+
+
+ 
+
